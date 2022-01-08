@@ -10,7 +10,8 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "debug": "npm --node-options=--inspect=0.0.0.0:9229 run dev"
   },
   "dependencies": {
     "next": "^9.4.2",
